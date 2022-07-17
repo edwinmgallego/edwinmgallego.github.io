@@ -2,7 +2,7 @@ const sections = document.querySelectorAll('.section');
 const sectBtns = document.querySelectorAll('.controls');
 const sectBtn = document.querySelectorAll('.control');
 const allSections = document.querySelectorAll('.main-content');
-
+/*
 function PageTransitions() {
     //button click action class
     for (let i = 0; i < sectBtn.length; i++) {
@@ -14,7 +14,7 @@ function PageTransitions() {
     }
     //sections active class
 
-    allSections.addEventListener('click', (e) => {
+    allSections.addEventListener('click',function(e)  {
             const id = e.target.dataset.id;
             console.log(id);
             if (id) {
@@ -38,8 +38,8 @@ function PageTransitions() {
 
 }
 PageTransitions();
+*/
 
-/*
 (function () {
     [...document.querySelectorAll(".control")].forEach(button => {
         button.addEventListener("click", function() {
@@ -53,4 +53,3 @@ PageTransitions();
         document.body.classList.toggle("light-mode");
     })
 })();
-*/
